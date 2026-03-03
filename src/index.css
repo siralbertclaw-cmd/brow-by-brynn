@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #FAF7F4;
+  color: #2C2424;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-gold text-white font-sans tracking-widest uppercase text-xs px-8 py-4 hover:bg-mink transition-colors duration-300 cursor-pointer;
+  }
+  .btn-outline {
+    @apply inline-block border border-gold text-gold font-sans tracking-widest uppercase text-xs px-8 py-4 hover:bg-gold hover:text-white transition-colors duration-300 cursor-pointer;
+  }
+  .section-label {
+    @apply text-rose font-sans tracking-[0.3em] uppercase text-xs mb-3 block;
+  }
+  .section-title {
+    @apply font-serif text-3xl md:text-4xl text-charcoal leading-snug;
+  }
+}
