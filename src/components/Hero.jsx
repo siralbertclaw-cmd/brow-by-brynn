@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="relative">
           <div className="aspect-[3/4] bg-blush/40 rounded-sm overflow-hidden">
             <img
-              src="/brynn-header.jpg"
+              src="/brynn-pro.jpg"
               alt="Brynn — Permanent Makeup Artist"
               className="w-full h-full object-cover object-top"
             />
