@@ -1,9 +1,4 @@
-const credentials = [
-  'Licensed Permanent Makeup Artist',
-  'Advanced Nano Brow Specialist',
-  'Lip Blush & Color Theory Certified',
-  'Member, Society of Permanent Cosmetic Professionals',
-]
+import about from '../content/about.json'
 
 export default function About() {
   return (
@@ -13,7 +8,7 @@ export default function About() {
         <div className="relative order-2 md:order-1">
           <div className="aspect-square bg-blush/50 rounded-sm overflow-hidden">
             <img
-              src="https://images.squarespace-cdn.com/content/v1/61bfdc9772885c03561fb234/581f5c20-d84a-40de-bc1e-d962164a0593/image-asset.jpeg"
+              src={about.photo}
               alt="Brynn"
               className="w-full h-full object-cover object-top"
             />
@@ -24,19 +19,12 @@ export default function About() {
         {/* Text */}
         <div className="order-1 md:order-2">
           <span className="section-label">Meet Your Artist</span>
-          <h2 className="section-title mb-6">Hi, I'm Brynn.</h2>
-          <p className="font-sans text-sm text-charcoal/70 leading-relaxed mb-4">
-            With over 15 years in permanent makeup, I've dedicated my career to one thing: helping
-            women wake up feeling effortlessly beautiful. My approach is personal — every client gets
-            a custom design tailored to their face shape, skin tone, and lifestyle.
-          </p>
-          <p className="font-sans text-sm text-charcoal/70 leading-relaxed mb-8">
-            I split my time between my studio in Boulder, Colorado and Ormond Beach, Florida — so
-            no matter where you are, world-class brows are closer than you think.
-          </p>
+          <h2 className="section-title mb-6">{about.heading}</h2>
+          <p className="font-sans text-sm text-charcoal/70 leading-relaxed mb-4">{about.bio1}</p>
+          <p className="font-sans text-sm text-charcoal/70 leading-relaxed mb-8">{about.bio2}</p>
 
           <ul className="space-y-3 mb-8">
-            {credentials.map(c => (
+            {about.credentials.map(c => (
               <li key={c} className="flex items-center gap-3 font-sans text-sm text-charcoal/80">
                 <span className="w-1.5 h-1.5 rounded-full bg-rose flex-shrink-0" />
                 {c}

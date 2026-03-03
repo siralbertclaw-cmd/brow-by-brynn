@@ -1,0 +1,78 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: testimonials
+    label: Testimonials
+    label_singular: Testimonial
+    file: src/content/testimonials.json
+    fields:
+      - name: testimonials
+        label: Testimonials
+        widget: list
+        fields:
+          - { name: name, label: Client Name, widget: string }
+          - { name: location, label: Location (e.g. Boulder, CO), widget: string }
+          - { name: text, label: Review Text, widget: text }
+          - { name: stars, label: Stars (1-5), widget: number, min: 1, max: 5, default: 5 }
+
+  - name: locations
+    label: Locations
+    label_singular: Location
+    file: src/content/locations.json
+    fields:
+      - name: locations
+        label: Locations
+        widget: list
+        fields:
+          - { name: city, label: City, widget: string }
+          - { name: address, label: Full Address, widget: string }
+          - { name: phone, label: Phone Number, widget: string }
+          - { name: hours, label: Hours, widget: string }
+          - { name: note, label: Short Note (shown under city name), widget: string }
+          - { name: mapLink, label: Google Maps Link, widget: string }
+
+  - name: faq
+    label: FAQ
+    label_singular: FAQ Item
+    file: src/content/faq.json
+    fields:
+      - name: faq
+        label: FAQ Items
+        widget: list
+        fields:
+          - { name: question, label: Question, widget: string }
+          - { name: answer, label: Answer, widget: text }
+
+  - name: services
+    label: Services
+    label_singular: Service
+    file: src/content/services.json
+    fields:
+      - name: services
+        label: Services
+        widget: list
+        fields:
+          - { name: name, label: Service Name, widget: string }
+          - { name: tagline, label: Tagline, widget: string }
+          - { name: description, label: Description, widget: text }
+          - { name: price, label: Price (e.g. Starting at $550), widget: string }
+          - { name: ideal, label: Ideal For, widget: string }
+          - { name: image, label: Photo, widget: image }
+
+  - name: about
+    label: About Section
+    file: src/content/about.json
+    fields:
+      - { name: heading, label: Heading (e.g. Hi, I'm Brynn.), widget: string }
+      - { name: bio1, label: First Bio Paragraph, widget: text }
+      - { name: bio2, label: Second Bio Paragraph, widget: text }
+      - name: credentials
+        label: Credentials List
+        widget: list
+        field: { name: credential, label: Credential, widget: string }
+      - { name: photo, label: Your Photo, widget: image }

@@ -1,0 +1,18 @@
+[
+  {
+    "city": "Boulder, Colorado",
+    "address": "Indie Salons #29, 2660 Canyon Blvd, Boulder, CO 80302",
+    "phone": "(720) 507-5119",
+    "hours": "Tue – Sat, 10am – 6pm",
+    "note": "Inside Indie Salons — parking in front of the Boulder Marriott.",
+    "mapLink": "https://maps.google.com/?q=2660+Canyon+Blvd+Boulder+CO+80302"
+  },
+  {
+    "city": "Ormond Beach, Florida",
+    "address": "Phenix Salon Suites, Suite #101, 266 N Nova Rd, Ormond Beach, FL 32174",
+    "phone": "(720) 507-5119",
+    "hours": "Tue – Sat, 10am – 6pm",
+    "note": "Inside Phenix Salon Suites — minutes from the Atlantic coast.",
+    "mapLink": "https://maps.google.com/?q=266+N+Nova+Rd+Ormond+Beach+FL+32174"
+  }
+]

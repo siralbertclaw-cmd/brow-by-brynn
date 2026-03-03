@@ -34,11 +34,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 gap-6 border-t border-white/10 pt-8 mb-8">
           <div>
             <p className="font-sans text-xs tracking-widest uppercase text-rose mb-1">Boulder, Colorado</p>
-            <p className="font-sans text-xs text-white/40">Tue – Sat, 9am – 5pm</p>
+            <p className="font-sans text-xs text-white/40">Indie Salons #29, 2660 Canyon Blvd</p>
+            <p className="font-sans text-xs text-white/40">Tue – Sat, 10am – 6pm · (720) 507-5119</p>
           </div>
           <div>
             <p className="font-sans text-xs tracking-widest uppercase text-rose mb-1">Ormond Beach, Florida</p>
-            <p className="font-sans text-xs text-white/40">Mon – Fri, 9am – 5pm</p>
+            <p className="font-sans text-xs text-white/40">Phenix Salon Suites #101, 266 N Nova Rd</p>
+            <p className="font-sans text-xs text-white/40">Tue – Sat, 10am – 6pm · (720) 507-5119</p>
           </div>
         </div>
 

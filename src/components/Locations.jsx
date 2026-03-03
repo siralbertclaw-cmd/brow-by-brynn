@@ -1,21 +1,4 @@
-const locations = [
-  {
-    city: 'Boulder, Colorado',
-    address: 'Boulder, CO',
-    phone: '',
-    hours: 'Tue – Sat, 9am – 5pm',
-    note: 'Nestled in the foothills of the Rocky Mountains.',
-    mapLink: 'https://maps.google.com/?q=Boulder,CO',
-  },
-  {
-    city: 'Ormond Beach, Florida',
-    address: 'Ormond Beach, FL',
-    phone: '',
-    hours: 'Mon – Fri, 9am – 5pm',
-    note: 'Minutes from the Atlantic coast.',
-    mapLink: 'https://maps.google.com/?q=Ormond+Beach,FL',
-  },
-]
+import locations from '../content/locations.json'
 
 export default function Locations() {
   return (
@@ -34,8 +17,16 @@ export default function Locations() {
 
               <div className="space-y-3 mb-8">
                 <div className="flex items-start gap-3">
+                  <span className="font-sans text-xs tracking-widest uppercase text-white/40 w-14 flex-shrink-0 pt-0.5">Address</span>
+                  <span className="font-sans text-sm text-white/70">{l.address}</span>
+                </div>
+                <div className="flex items-start gap-3">
                   <span className="font-sans text-xs tracking-widest uppercase text-white/40 w-14 flex-shrink-0 pt-0.5">Hours</span>
                   <span className="font-sans text-sm text-white/70">{l.hours}</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="font-sans text-xs tracking-widest uppercase text-white/40 w-14 flex-shrink-0 pt-0.5">Phone</span>
+                  <a href={`tel:${l.phone}`} className="font-sans text-sm text-white/70 hover:text-white transition-colors">{l.phone}</a>
                 </div>
               </div>
 

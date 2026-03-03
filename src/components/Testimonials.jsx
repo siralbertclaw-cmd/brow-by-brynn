@@ -1,23 +1,4 @@
-const reviews = [
-  {
-    name: 'Sarah M.',
-    location: 'Boulder, CO',
-    text: 'Brynn is an absolute artist. My nano brows look so natural that people genuinely think they\'re real. Best investment I\'ve made in my appearance.',
-    stars: 5,
-  },
-  {
-    name: 'Jennifer L.',
-    location: 'Ormond Beach, FL',
-    text: 'I was so nervous going in, but Brynn made me feel completely at ease. The lip blush healed beautifully and I\'ve gotten so many compliments.',
-    stars: 5,
-  },
-  {
-    name: 'Michelle R.',
-    location: 'Denver, CO',
-    text: 'I drove 2 hours to see Brynn and I would do it again in a heartbeat. The lash line enhancement changed my entire morning routine.',
-    stars: 5,
-  },
-]
+import reviews from '../content/testimonials.json'
 
 function Stars({ count }) {
   return (
