@@ -1,26 +1,26 @@
 [
   {
     "name": "Nano Brows",
-    "tagline": "The most natural-looking brow technique available.",
-    "description": "Using an ultra-fine digital needle, nano brows deposit pigment in hair-like strokes that mimic real brow hairs. Perfect for sparse or thin brows. Results last 1–3 years.",
+    "tagline": "Looks real. Because it should.",
+    "description": "Tiny, hair-like strokes placed with a digital needle to fill, shape, and define your brows naturally. Great for sparse or uneven brows — and built to last 1 to 3 years.",
     "price": "Starting at $550",
     "ideal": "Oily, combination, or mature skin",
     "image": "https://images.squarespace-cdn.com/content/v1/61bfdc9772885c03561fb234/3c6f7575-8a9f-4a73-a58b-981b5621e953/IMG_0489.jpeg"
   },
   {
     "name": "Lip Blush",
-    "tagline": "Soft, full color that lasts for years.",
-    "description": "A watercolor-style pigment technique that enhances your natural lip shape, adds definition, and gives a lasting flush of color — no liner needed.",
+    "tagline": "Color that stays. Liner that doesn't.",
+    "description": "A soft flush of pigment that defines your lip shape and adds lasting color — no liner, no fading, no touch-ups needed throughout the day.",
     "price": "Starting at $500",
     "ideal": "Anyone wanting low-maintenance color",
     "image": "https://images.squarespace-cdn.com/content/v1/61bfdc9772885c03561fb234/ca4d93a5-715c-42e5-8712-469546c9ec9a/IMG_3727.jpeg"
   },
   {
     "name": "Lash Line Enhancement",
-    "tagline": "The illusion of thicker, fuller lashes.",
-    "description": "Pigment is carefully placed between lash hairs to create the appearance of a fuller, defined lash line. Subtle yet transformative. Zero daily liner required.",
+    "tagline": "Fuller lashes without the mascara.",
+    "description": "Pigment placed right at the lash line to make your lashes look thicker and your eyes more defined. Subtle enough for everyday, striking enough to notice.",
     "price": "Starting at $400",
     "ideal": "Those who want effortless definition",
-    "image": "https://images.squarespace-cdn.com/content/v1/61bfdc9772885c03561fb234/8c596c95-2c56-4826-8ed0-87e7d0d5aa06/IMG_5525.jpeg"
+    "image": "/lash-liner.jpg"
   }
 ]

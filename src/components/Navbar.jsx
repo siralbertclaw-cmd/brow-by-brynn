@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 const links = [
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Locations', href: '#locations' },
+  { label: 'Services', to: '/services' },
+  { label: 'Portfolio', to: '/portfolio' },
+  { label: 'About', to: '/about' },
+  { label: 'FAQ', to: '/faq' },
 ]
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
+  const location = useLocation()
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40)
@@ -17,20 +19,29 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
+  // Close mobile menu on route change
+  useEffect(() => {
+    setOpen(false)
+  }, [location])
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? 'bg-cream shadow-sm py-3' : 'bg-transparent py-5'}`}>
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="font-serif text-xl text-charcoal tracking-wide">
-          Brow <span className="text-rose italic">by Brynn</span>
-        </a>
+        <Link to="/" className="hover-glow font-serif text-lg md:text-2xl font-bold text-charcoal tracking-wide">
+          Permanent Makeup <span className="text-rose italic">by Brynn</span>
+        </Link>
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
           {links.map(l => (
-            <a key={l.label} href={l.href} className="font-sans text-xs tracking-widest uppercase text-charcoal hover:text-rose transition-colors">
+            <Link
+              key={l.label}
+              to={l.to}
+              className={`hover-underline font-sans text-xs tracking-widest uppercase transition-colors ${location.pathname === l.to ? 'text-rose' : 'text-charcoal hover:text-rose'}`}
+            >
               {l.label}
-            </a>
+            </Link>
           ))}
           <a href="https://secure.acuityscheduling.com/appointments.php" target="_blank" rel="noopener noreferrer" className="btn-primary text-xs">Book Now</a>
         </nav>
@@ -47,11 +58,15 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden bg-cream border-t border-blush px-6 py-6 flex flex-col gap-5">
           {links.map(l => (
-            <a key={l.label} href={l.href} onClick={() => setOpen(false)} className="font-sans text-xs tracking-widest uppercase text-charcoal">
+            <Link
+              key={l.label}
+              to={l.to}
+              className={`font-sans text-xs tracking-widest uppercase ${location.pathname === l.to ? 'text-rose' : 'text-charcoal'}`}
+            >
               {l.label}
-            </a>
+            </Link>
           ))}
-          <a href="https://secure.acuityscheduling.com/appointments.php" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="btn-primary text-center">Book Now</a>
+          <a href="https://secure.acuityscheduling.com/appointments.php" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">Book Now</a>
         </div>
       )}
     </header>

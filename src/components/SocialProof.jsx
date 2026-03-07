@@ -1,7 +1,7 @@
 const stats = [
   { value: '15+', label: 'Years of Experience' },
   { value: '2', label: 'Studio Locations' },
-  { value: '500+', label: 'Happy Clients' },
+  { value: '1,000+', label: 'Happy Clients' },
   { value: '100%', label: 'Custom Techniques' },
 ]
 

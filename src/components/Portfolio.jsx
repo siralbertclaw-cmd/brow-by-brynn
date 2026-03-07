@@ -1,3 +1,5 @@
+import useScrollReveal from '../hooks/useScrollReveal'
+
 const photos = [
   { src: 'https://images.squarespace-cdn.com/content/v1/61bfdc9772885c03561fb234/d5f27e99-1b9f-4dd5-bcb9-7a95579cafed/IMG_1901.jpeg', alt: 'Nano brow result' },
   { src: 'https://images.squarespace-cdn.com/content/v1/61bfdc9772885c03561fb234/9745c2ff-93ad-467f-af55-81f912ad27b3/IMG_5789.png', alt: 'Brow work' },
@@ -10,25 +12,34 @@ const photos = [
   { src: 'https://images.squarespace-cdn.com/content/v1/61bfdc9772885c03561fb234/74b01fad-6522-476c-a8d1-8959a167e267/IMG_3136.jpeg', alt: 'Nano brow result' },
 ]
 
+function PhotoCard({ p, i }) {
+  const ref = useScrollReveal()
+  return (
+    <div ref={ref} className="reveal break-inside-avoid overflow-hidden group transition-transform duration-500 hover:scale-105 hover:shadow-xl hover:z-10 relative">
+      <img
+        src={p.src}
+        alt={p.alt}
+        className="w-full object-cover group-hover:scale-110 transition-transform duration-700"
+        loading="lazy"
+      />
+    </div>
+  )
+}
+
 export default function Portfolio() {
+  const titleRef = useScrollReveal()
+
   return (
     <section className="bg-cream py-24">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
+        <div ref={titleRef} className="reveal text-center mb-16">
           <span className="section-label">Portfolio</span>
           <h2 className="section-title">The Work Speaks for Itself</h2>
         </div>
 
         <div className="columns-2 md:columns-3 gap-4 space-y-4">
           {photos.map((p, i) => (
-            <div key={i} className="break-inside-avoid overflow-hidden group">
-              <img
-                src={p.src}
-                alt={p.alt}
-                className="w-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="lazy"
-              />
-            </div>
+            <PhotoCard key={i} p={p} i={i} />
           ))}
         </div>
 

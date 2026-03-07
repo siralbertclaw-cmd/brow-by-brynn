@@ -1,29 +1,24 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import SocialProof from './components/SocialProof'
-import Services from './components/Services'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import Testimonials from './components/Testimonials'
-import Locations from './components/Locations'
-import FAQ from './components/FAQ'
-import Booking from './components/Booking'
 import Footer from './components/Footer'
+import HomePage from './pages/HomePage'
+import ServicesPage from './pages/ServicesPage'
+import PortfolioPage from './pages/PortfolioPage'
+import AboutPage from './pages/AboutPage'
+import FAQPage from './pages/FAQPage'
 
 export default function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
-      <Hero />
-      <SocialProof />
-      <Services />
-      <About />
-      <Portfolio />
-      <Testimonials />
-      <Locations />
-      <FAQ />
-      <Booking />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/faq" element={<FAQPage />} />
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   )
 }
