@@ -17,6 +17,12 @@ export default function Booking() {
         >
           Book a Free Consultation
         </a>
+        <p className="font-sans text-sm text-white/60 mt-6">
+          Any questions?{' '}
+          <a href="sms:7205052790" className="text-white underline underline-offset-2 hover:text-white/80 transition-colors">
+            Text me (720) 505-2790
+          </a>
+        </p>
       </div>
     </section>
   )
