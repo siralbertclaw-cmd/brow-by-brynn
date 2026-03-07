@@ -48,9 +48,11 @@ export default function Footer() {
           <p className="font-sans text-xs text-white/30">
             © {new Date().getFullYear()} Brow Company by Brynn. All rights reserved.
           </p>
-          <p className="font-sans text-xs text-white/30">
-            Permanent makeup services in Colorado &amp; Florida.
-          </p>
+          <div className="flex items-center gap-5">
+            <a href="https://www.instagram.com/_browcompany" target="_blank" rel="noopener noreferrer" className="font-sans text-xs text-white/40 hover:text-white transition-colors tracking-widest uppercase">Instagram</a>
+            <a href="https://www.facebook.com/floridabrowco" target="_blank" rel="noopener noreferrer" className="font-sans text-xs text-white/40 hover:text-white transition-colors tracking-widest uppercase">Facebook FL</a>
+            <a href="https://www.facebook.com/coloradobrowco" target="_blank" rel="noopener noreferrer" className="font-sans text-xs text-white/40 hover:text-white transition-colors tracking-widest uppercase">Facebook CO</a>
+          </div>
         </div>
       </div>
     </footer>
