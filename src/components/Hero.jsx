@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="absolute bottom-0 left-0 w-64 h-64 rounded-full bg-rose/10 blur-3xl" />
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center pt-16 pb-10">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center pt-28 pb-10">
         {/* Text */}
         <div className="w-full">
           <span className="section-label">Brow Company by Brynn</span>
