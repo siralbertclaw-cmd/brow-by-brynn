@@ -28,15 +28,6 @@ export default function Hero() {
             <Link to="/services" className="btn-outline text-center">Explore Services</Link>
           </div>
 
-          {/* Social links */}
-          <div className="flex items-center gap-5 mb-6">
-            <a href="https://www.instagram.com/_browcompany" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-widest uppercase text-charcoal/50 hover:text-rose transition-colors">Instagram</a>
-            <span className="text-charcoal/20">|</span>
-            <a href="https://www.facebook.com/floridabrowco" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-widest uppercase text-charcoal/50 hover:text-rose transition-colors">Facebook FL</a>
-            <span className="text-charcoal/20">|</span>
-            <a href="https://www.facebook.com/coloradobrowco" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-widest uppercase text-charcoal/50 hover:text-rose transition-colors">Facebook CO</a>
-          </div>
-
           {/* Service pills */}
           <div className="flex flex-wrap gap-3">
             {services.map(s => (
@@ -59,6 +50,13 @@ export default function Hero() {
               alt="Brynn, Permanent Makeup Artist"
               className="w-full h-full object-cover object-top"
             />
+          </div>
+          <div className="flex items-center gap-5 mt-4 justify-center">
+            <a href="https://www.instagram.com/_browcompany" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-widest uppercase text-charcoal/50 hover:text-rose transition-colors">Instagram</a>
+            <span className="text-charcoal/20">|</span>
+            <a href="https://www.facebook.com/floridabrowco" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-widest uppercase text-charcoal/50 hover:text-rose transition-colors">Facebook FL</a>
+            <span className="text-charcoal/20">|</span>
+            <a href="https://www.facebook.com/coloradobrowco" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-widest uppercase text-charcoal/50 hover:text-rose transition-colors">Facebook CO</a>
           </div>
         </div>
       </div>
