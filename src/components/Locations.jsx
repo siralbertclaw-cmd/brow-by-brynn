@@ -21,10 +21,6 @@ export default function Locations() {
                   <span className="font-sans text-sm text-white/70">{l.address}</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="font-sans text-xs tracking-widest uppercase text-white/40 w-14 flex-shrink-0 pt-0.5">Hours</span>
-                  <span className="font-sans text-sm text-white/70">{l.hours}</span>
-                </div>
-                <div className="flex items-start gap-3">
                   <span className="font-sans text-xs tracking-widest uppercase text-white/40 w-14 flex-shrink-0 pt-0.5">Phone</span>
                   <a href={`tel:${l.phone}`} className="font-sans text-sm text-white/70 hover:text-white transition-colors">{l.phone}</a>
                 </div>

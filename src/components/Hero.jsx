@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center pt-16 pb-10">
         {/* Text */}
         <div className="w-full">
-          <span className="section-label">Permanent Makeup Artist</span>
+          <span className="section-label">Brow Company by Brynn</span>
           <h1 className="hover-glow font-serif font-bold text-4xl md:text-5xl text-charcoal leading-[1.1] mb-5 cursor-default">
             Wake Up to
             <em className="block text-rose font-bold"> Perfection.</em>

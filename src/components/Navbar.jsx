@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="hover-glow font-serif text-lg md:text-2xl font-bold text-charcoal tracking-wide">
-          Permanent Makeup <span className="text-rose italic">by Brynn</span>
+          Brow Company <span className="text-rose italic">by Brynn</span>
         </Link>
 
         {/* Desktop nav */}
