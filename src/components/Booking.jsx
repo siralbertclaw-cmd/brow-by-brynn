@@ -13,7 +13,7 @@ export default function Booking() {
           href="https://secure.acuityscheduling.com/appointments.php"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-white text-rose font-sans tracking-widest uppercase text-xs px-10 py-4 hover:bg-cream transition-colors duration-300"
+          className="inline-block bg-white text-rose font-sans tracking-widest uppercase text-xs px-10 py-4 transition-all duration-300 hover:bg-cream hover:scale-110 hover:shadow-lg active:scale-95"
         >
           Book a Free Consultation
         </a>
