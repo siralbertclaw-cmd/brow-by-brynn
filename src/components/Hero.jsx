@@ -17,22 +17,11 @@ export default function Hero() {
             <em className="block text-rose font-bold"> Perfection.</em>
           </h1>
           <p className="font-sans font-semibold text-base md:text-lg text-charcoal/80 leading-relaxed mb-7 max-w-md">
-            I've spent 15+ years perfecting the art of permanent makeup — so you can spend less time in front of the mirror and more time living your life.
+            I've spent 15+ years perfecting the art of permanent makeup, so you can spend less time in front of the mirror and more time living your life.
           </p>
           <div className="flex flex-col gap-4 mb-8 w-full max-w-xs">
             <a href="https://secure.acuityscheduling.com/appointments.php" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">Book Now</a>
             <Link to="/services" className="btn-outline text-center">Explore Services</Link>
-          </div>
-          <div className="flex gap-8">
-            <div>
-              <p className="font-serif text-3xl font-bold text-charcoal">1,000+</p>
-              <p className="font-sans text-xs tracking-widest uppercase text-rose font-bold">Clients Served</p>
-            </div>
-            <div className="w-px bg-blush" />
-            <div>
-              <p className="font-serif text-3xl font-bold text-charcoal">15+</p>
-              <p className="font-sans text-xs tracking-widest uppercase text-rose font-bold">Years of Artistry</p>
-            </div>
           </div>
         </div>
 
@@ -41,7 +30,7 @@ export default function Hero() {
           <div className="aspect-[3/4] bg-blush/40 rounded-sm overflow-hidden">
             <img
               src="/brynn-pro.jpg"
-              alt="Brynn — Permanent Makeup Artist"
+              alt="Brynn, Permanent Makeup Artist"
               className="w-full h-full object-cover object-top"
             />
           </div>

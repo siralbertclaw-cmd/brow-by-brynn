@@ -7,7 +7,7 @@ export default function Booking() {
           Start Your Journey to Effortless Beauty
         </h2>
         <p className="font-sans text-sm text-white/70 leading-relaxed mb-10 max-w-xl mx-auto">
-          Book a free consultation and we'll walk you through everything — design, technique, aftercare, and pricing. No pressure, just great brows.
+          Book a free consultation and we'll walk you through everything: design, technique, aftercare, and pricing. No pressure, just great brows.
         </p>
         <a
           href="https://secure.acuityscheduling.com/appointments.php"
