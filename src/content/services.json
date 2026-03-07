@@ -13,7 +13,8 @@
     "description": "A soft, filled-in brow technique using a stippling method to create an airbrushed, powdery finish. Ideal for clients with too much previous pigment in the skin, where nano brow hairstrokes would not show the natural skin gaps between strokes. Often used as a color correction to neutralize old work and restore a clean, defined shape.",
     "price": "Starting at $550",
     "ideal": "Previous microblading, excess pigment buildup, or color correction",
-    "image": "/powder-brows.jpg"
+    "image": "/powder-brows.jpg",
+    "objectPosition": "center 65%"
   },
   {
     "name": "Lip Blush",
@@ -29,7 +30,8 @@
     "description": "Pigment placed right between the lashes to make them look fuller and more defined. Unlike eyeliner, it sits within the lash line and is virtually undetectable. Natural, effortless definition every day without looking made up.",
     "price": "Starting at $400",
     "ideal": "Those who want subtle, natural definition",
-    "image": "/lash-liner.jpg"
+    "image": "/lash-liner.jpg",
+    "objectPosition": "center 25%"
   },
   {
     "name": "Eyeliner",
