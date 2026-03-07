@@ -15,7 +15,7 @@ export default function Booking() {
           rel="noopener noreferrer"
           className="inline-block bg-white text-rose font-sans tracking-widest uppercase text-xs px-10 py-4 hover:bg-cream transition-colors duration-300"
         >
-          Request a Consultation
+          Book a Free Consultation
         </a>
       </div>
     </section>
