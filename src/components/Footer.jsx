@@ -34,7 +34,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 gap-6 border-t border-white/10 pt-8 mb-8">
           <div>
             <p className="font-sans text-xs tracking-widest uppercase text-rose mb-1">Boulder, Colorado</p>
-            <p className="font-sans text-xs text-white/40">4750 Broadway, Boulder, CO 80304</p>
+            <p className="font-sans text-xs text-white/40">4750 Broadway, Boulder, CO 80403</p>
             <p className="font-sans text-xs text-white/40">(720) 507-5119</p>
           </div>
           <div>
