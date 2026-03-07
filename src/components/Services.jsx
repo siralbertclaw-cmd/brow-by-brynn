@@ -39,7 +39,7 @@ export default function Services() {
         </div>
 
         <div className="text-center mt-12">
-          <a href="https://secure.acuityscheduling.com/appointments.php" target="_blank" rel="noopener noreferrer" className="btn-primary">Book Your Consultation</a>
+          <a href="https://secure.acuityscheduling.com/appointments.php" target="_blank" rel="noopener noreferrer" className="btn-primary">Book a Free Consultation</a>
         </div>
       </div>
     </section>
