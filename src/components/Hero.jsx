@@ -11,7 +11,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center pt-28 pb-10">
         {/* Text */}
-        <div className="w-full">
+        <div className="w-full order-2 md:order-1">
           <span className="section-label">Permanent Makeup</span>
           <p className="font-sans text-xs tracking-widest uppercase text-charcoal/50 mb-5">Colorado &amp; Florida</p>
           <div className="mb-6">
@@ -43,7 +43,7 @@ export default function Hero() {
         </div>
 
         {/* Photo */}
-        <div className="relative w-full max-w-xs mx-auto md:max-w-none">
+        <div className="relative w-full max-w-xs mx-auto md:max-w-none order-1 md:order-2">
           <div className="aspect-[3/4] bg-blush/40 rounded-sm overflow-hidden">
             <img
               src="/brynn-pro.jpg"
