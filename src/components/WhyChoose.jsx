@@ -1,7 +1,7 @@
 const reasons = [
   { stat: 'Custom', label: 'Brow mapping and shape design tailored to your face, every single time' },
   { stat: '4 Gen', label: 'Four generations deep in the beauty industry, beauty is in my blood' },
-  { stat: '', label: "It doesn't look like makeup, it enhances your natural features" },
+  { stat: 'Enhance', label: "It doesn't look like makeup, it enhances your natural features" },
   { stat: 'Love', label: 'I only sign off on work I love. You deserve results worth being proud of' },
   { stat: 'Precision', label: 'Integrity and precision in every stroke. Perfection is the standard, not the goal' },
 ]
