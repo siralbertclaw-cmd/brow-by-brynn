@@ -7,7 +7,7 @@ export default function AfterCarePage() {
         <div className="max-w-4xl mx-auto px-6">
 
           <div className="text-center mb-16">
-            <span className="section-label">Recovery Guide</span>
+            <span className="section-label">Healing Guide</span>
             <h1 className="section-title">After Care</h1>
             <p className="font-sans text-base text-charcoal/60 mt-4 max-w-2xl mx-auto">
               Follow these instructions carefully to protect your investment and ensure beautiful, long-lasting results.
