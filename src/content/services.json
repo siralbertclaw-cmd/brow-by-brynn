@@ -8,6 +8,14 @@
     "image": "/nano-brows.jpg"
   },
   {
+    "name": "Powder Brows",
+    "tagline": "The solution for pigment buildup.",
+    "description": "A soft, filled-in brow technique using a stippling method to create an airbrushed, powdery finish. Ideal for clients with too much previous pigment in the skin, where nano brow hairstrokes would not show the natural skin gaps between strokes. Often used as a color correction to neutralize old work and restore a clean, defined shape.",
+    "price": "Starting at $550",
+    "ideal": "Previous microblading, excess pigment buildup, or color correction",
+    "image": "/nano-brows.jpg"
+  },
+  {
     "name": "Lip Blush",
     "tagline": "Color that stays. Liner that doesn't.",
     "description": "A soft flush of pigment that defines your lip shape and adds lasting color. No liner, no fading, no touch-ups needed throughout the day.",
@@ -18,18 +26,10 @@
   {
     "name": "Lash Line Enhancement",
     "tagline": "Fuller lashes without the mascara.",
-    "description": "Pigment placed right between the lashes to make them look fuller and more defined. Unlike an eyeliner tattoo, it sits within the lash line and is virtually undetectable. Natural, effortless definition every day without looking made up.",
+    "description": "Pigment placed right between the lashes to make them look fuller and more defined. Unlike eyeliner, it sits within the lash line and is virtually undetectable. Natural, effortless definition every day without looking made up.",
     "price": "Starting at $400",
     "ideal": "Those who want subtle, natural definition",
     "image": "/lash-liner.jpg"
-  },
-  {
-    "name": "Powder Brows",
-    "tagline": "The solution for pigment buildup.",
-    "description": "A soft, filled-in brow technique using a stippling method to create an airbrushed, powdery finish. Ideal for clients with too much previous pigment in the skin, where nano brow hairstrokes would not show the natural skin gaps between strokes. Often used as a color correction to neutralize old work and restore a clean, defined shape.",
-    "price": "Starting at $550",
-    "ideal": "Previous microblading, excess pigment buildup, or color correction",
-    "image": "/nano-brows.jpg"
   },
   {
     "name": "Eyeliner",
