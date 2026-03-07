@@ -33,7 +33,7 @@ export default function Testimonials() {
   const next = () => goTo(current + 1)
 
   useEffect(() => {
-    timerRef.current = setInterval(() => goTo(current + 1), 5000)
+    timerRef.current = setInterval(() => goTo(current + 1), 3500)
     return () => clearInterval(timerRef.current)
   }, [current, transitioning])
 
