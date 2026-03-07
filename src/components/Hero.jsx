@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center pt-28 pb-10">
         {/* Text */}
         <div className="w-full">
-          <span className="section-label">Brow Company by Brynn</span>
+          <span className="section-label">Permanent Makeup</span>
           <div className="mb-6">
             <a href="https://coloradobrow.as.me/schedule/0e8b855e" target="_blank" rel="noopener noreferrer" className="btn-primary text-center inline-block">Book Now</a>
           </div>
