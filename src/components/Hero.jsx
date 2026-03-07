@@ -13,6 +13,7 @@ export default function Hero() {
         {/* Text */}
         <div className="w-full">
           <span className="section-label">Permanent Makeup</span>
+          <p className="font-sans text-xs tracking-widest uppercase text-charcoal/50 mb-5">Colorado &amp; Florida</p>
           <div className="mb-6">
             <a href="https://coloradobrow.as.me/schedule/0e8b855e" target="_blank" rel="noopener noreferrer" className="btn-primary text-center inline-block">Book Now</a>
           </div>
