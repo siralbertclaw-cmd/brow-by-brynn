@@ -1,26 +1,17 @@
 import useScrollReveal from '../hooks/useScrollReveal'
 
 const photos = [
-  { src: '/portfolio/DUlr9f6kaoI.jpg', alt: 'Brow work' },
-  { src: '/portfolio/DUT9J2sji9n.jpg', alt: 'Permanent makeup result' },
-  { src: '/portfolio/DTs5RJqjkol.jpg', alt: 'Brow transformation' },
-  { src: '/portfolio/DSsmyekDrUJ.jpg', alt: 'Nano brow close-up' },
-  { src: '/portfolio/DRNCBR1jmaH.jpg', alt: 'Permanent makeup' },
-  { src: '/portfolio/DQUoGREDpCG.jpg', alt: 'Brow work' },
-  { src: '/portfolio/DP2CPJdkpfV.jpg', alt: 'Nano brow result' },
-  { src: '/portfolio/DPw4Th7jmSu.jpg', alt: 'Lip blush result' },
-  { src: '/portfolio/DPO6NUbDiBK.jpg', alt: 'Brow work' },
-  { src: '/portfolio/DOtxdtGkfOd.jpg', alt: 'Permanent makeup result' },
-  { src: '/portfolio/DOFIQnwDqKi.jpg', alt: 'Nano brow result' },
-  { src: '/portfolio/DOECR-rDke3.jpg', alt: 'Brow transformation' },
-  { src: '/portfolio/DN3IGdqXGKu.jpg', alt: 'Permanent makeup' },
-  { src: '/portfolio/DNgpSbKy1pi.jpg', alt: 'Brow work' },
-  { src: '/portfolio/DNYOJzpuDRB.jpg', alt: 'Nano brow close-up' },
-  { src: '/portfolio/DNKSCsJtNyB.jpg', alt: 'Lip blush result' },
-  { src: '/portfolio/DNEc3CwPKWN.jpg', alt: 'Brow work' },
-  { src: '/portfolio/DMwd3V3s574.jpg', alt: 'Permanent makeup' },
-  { src: '/portfolio/DMwcVluuAK8.jpg', alt: 'Nano brow result' },
-  { src: '/portfolio/DMY-XL8PYov.jpg', alt: 'Brow transformation' },
+  { src: '/portfolio/DUlr9f6kaoI.jpg', alt: 'Nano brow before and after' },
+  { src: '/portfolio/DUT9J2sji9n.jpg', alt: 'Nano brow before and after' },
+  { src: '/portfolio/DRNCBR1jmaH.jpg', alt: 'Lash line enhancement close-up' },
+  { src: '/portfolio/DQUoGREDpCG.jpg', alt: 'Nano brow before and after' },
+  { src: '/portfolio/DOFIQnwDqKi.jpg', alt: 'Lip blush result' },
+  { src: '/portfolio/DNgpSbKy1pi.jpg', alt: 'Nano brow before and after' },
+  { src: '/portfolio/DNYOJzpuDRB.jpg', alt: 'Nano brow before and after' },
+  { src: '/portfolio/DNKSCsJtNyB.jpg', alt: 'Lip blush before and after' },
+  { src: '/portfolio/DNEc3CwPKWN.jpg', alt: 'Nano brow before and after' },
+  { src: '/portfolio/DMwd3V3s574.jpg', alt: 'Nano brow before and after' },
+  { src: '/portfolio/DMY-XL8PYov.jpg', alt: 'Nano brow before and after' },
 ]
 
 function PhotoCard({ p, i }) {
