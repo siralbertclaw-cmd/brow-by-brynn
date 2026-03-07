@@ -21,7 +21,7 @@ export default function Hero() {
             I've spent 15+ years perfecting the art of permanent makeup, so you can spend less time in front of the mirror and more time living your life.
           </p>
           <div className="flex flex-col gap-4 mb-8 w-full max-w-xs">
-            <a href="https://coloradobrow.as.me/" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">Book Now</a>
+            <a href="https://coloradobrow.as.me/schedule/0e8b855e" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">Book Now</a>
             <Link to="/services" className="btn-outline text-center">Explore Services</Link>
           </div>
 

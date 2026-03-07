@@ -43,7 +43,7 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
-          <a href="https://coloradobrow.as.me/" target="_blank" rel="noopener noreferrer" className="btn-primary text-xs">Book Now</a>
+          <a href="https://coloradobrow.as.me/schedule/0e8b855e" target="_blank" rel="noopener noreferrer" className="btn-primary text-xs">Book Now</a>
         </nav>
 
         {/* Mobile hamburger */}
@@ -66,7 +66,7 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
-          <a href="https://coloradobrow.as.me/" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">Book Now</a>
+          <a href="https://coloradobrow.as.me/schedule/0e8b855e" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">Book Now</a>
         </div>
       )}
     </header>

@@ -10,7 +10,7 @@ export default function Booking() {
           Book a free consultation and we'll walk you through everything: design, technique, aftercare, and pricing. No pressure, just great brows.
         </p>
         <a
-          href="https://coloradobrow.as.me/"
+          href="https://coloradobrow.as.me/schedule/0e8b855e"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-white text-rose font-sans tracking-widest uppercase text-xs px-10 py-4 transition-all duration-300 hover:bg-cream hover:scale-110 hover:shadow-lg active:scale-95"

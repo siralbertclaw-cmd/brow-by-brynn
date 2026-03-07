@@ -36,7 +36,7 @@ export default function About() {
             ))}
           </ul>
 
-          <a href="https://coloradobrow.as.me/" target="_blank" rel="noopener noreferrer" className="btn-outline">Work With Brynn</a>
+          <a href="https://coloradobrow.as.me/schedule/0e8b855e" target="_blank" rel="noopener noreferrer" className="btn-outline">Work With Brynn</a>
         </div>
       </div>
     </section>

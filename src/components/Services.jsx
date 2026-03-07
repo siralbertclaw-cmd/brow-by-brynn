@@ -39,7 +39,7 @@ export default function Services() {
         </div>
 
         <div className="text-center mt-12">
-          <a href="https://coloradobrow.as.me/" target="_blank" rel="noopener noreferrer" className="btn-primary">Book a Free Consultation</a>
+          <a href="https://coloradobrow.as.me/schedule/0e8b855e" target="_blank" rel="noopener noreferrer" className="btn-primary">Book a Free Consultation</a>
         </div>
       </div>
     </section>
