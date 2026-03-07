@@ -13,8 +13,11 @@ function ServiceCard({ s, i }) {
         <h3 className="hover-glow font-serif text-2xl text-charcoal mb-2 transition-colors duration-300">{s.name}</h3>
         <p className="font-sans text-sm italic text-charcoal/60 mb-4">{s.tagline}</p>
         <p className="font-sans text-sm text-charcoal/70 leading-relaxed mb-6 flex-1">{s.description}</p>
-        <div className="border-t border-blush pt-4">
-          <p className="font-sans text-xs text-charcoal/50">Ideal for: {s.ideal}</p>
+        <div className="border-t border-blush pt-4 space-y-1">
+          <p className="font-sans text-sm font-semibold text-charcoal">{s.price}</p>
+          <p className="font-sans text-xs text-rose">{s.deposit}</p>
+          <p className="font-sans text-xs text-charcoal/50">{s.balance}</p>
+          <p className="font-sans text-xs text-charcoal/40 pt-1">Ideal for: {s.ideal}</p>
         </div>
       </div>
     </div>

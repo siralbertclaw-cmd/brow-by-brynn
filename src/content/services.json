@@ -4,6 +4,8 @@
     "tagline": "Looks real. Because it should.",
     "description": "Tiny, hair-like strokes placed with a digital needle to fill, shape, and define your brows naturally. Great for sparse or uneven brows, built to last 1 to 3 years.",
     "price": "Starting at $550",
+    "deposit": "$150 deposit to book",
+    "balance": "$400 balance due at session 1 (includes session 2)",
     "ideal": "Oily, combination, or mature skin",
     "image": "/nano-brows.jpg"
   },
@@ -12,6 +14,8 @@
     "tagline": "The solution for pigment buildup.",
     "description": "A soft, filled-in brow technique using a stippling method to create an airbrushed, powdery finish. Ideal for clients with too much previous pigment in the skin, where nano brow hairstrokes would not show the natural skin gaps between strokes. Often used as a color correction to neutralize old work and restore a clean, defined shape.",
     "price": "Starting at $550",
+    "deposit": "$150 deposit to book",
+    "balance": "$400 balance due at session 1 (includes session 2)",
     "ideal": "Previous microblading, excess pigment buildup, or color correction",
     "image": "/powder-brows.jpg",
     "objectPosition": "center 15%"
@@ -21,6 +25,8 @@
     "tagline": "Color that stays. Liner that doesn't.",
     "description": "A soft flush of pigment that defines your lip shape and adds lasting color. No liner, no fading, no touch-ups needed throughout the day.",
     "price": "Starting at $500",
+    "deposit": "$150 deposit to book",
+    "balance": "$350 balance due at session 1 (includes session 2)",
     "ideal": "Anyone wanting low-maintenance color",
     "image": "/lip-blush.jpg"
   },
@@ -29,6 +35,8 @@
     "tagline": "Fuller lashes without the mascara.",
     "description": "Pigment placed right between the lashes to make them look fuller and more defined. Unlike eyeliner, it sits within the lash line and is virtually undetectable. Natural, effortless definition every day without looking made up.",
     "price": "Starting at $400",
+    "deposit": "$150 deposit to book",
+    "balance": "$250 balance due at session 1 (includes session 2)",
     "ideal": "Those who want subtle, natural definition",
     "image": "/lash-liner-v3.jpg",
     "objectPosition": "center 25%"
@@ -38,6 +46,8 @@
     "tagline": "Bold definition, zero effort.",
     "description": "Pigment applied on top of the lash line for a more visible, dramatic liner look. Can include a subtle wing for a classic, defined finish. Unlike lash line enhancement, eyeliner is meant to be seen and gives you that polished liner look every single day.",
     "price": "Starting at $450",
+    "deposit": "$150 deposit to book",
+    "balance": "$300 balance due at session 1 (includes session 2)",
     "ideal": "Those who want a defined, liner look with optional wing",
     "image": "/eyeliner.jpg"
   }
