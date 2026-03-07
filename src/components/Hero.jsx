@@ -13,6 +13,9 @@ export default function Hero() {
         {/* Text */}
         <div className="w-full">
           <span className="section-label">Brow Company by Brynn</span>
+          <div className="mb-6">
+            <a href="https://coloradobrow.as.me/schedule/0e8b855e" target="_blank" rel="noopener noreferrer" className="btn-primary text-center inline-block">Book Now</a>
+          </div>
           <h1 className="hover-glow font-serif font-bold text-4xl md:text-5xl text-charcoal leading-[1.1] mb-5 cursor-default">
             Wake Up to
             <em className="block text-rose font-bold"> Perfection.</em>
@@ -21,7 +24,6 @@ export default function Hero() {
             I've spent 15+ years perfecting the art of permanent makeup, so you can spend less time in front of the mirror and more time living your life.
           </p>
           <div className="flex flex-col gap-4 mb-8 w-full max-w-xs">
-            <a href="https://coloradobrow.as.me/schedule/0e8b855e" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">Book Now</a>
             <Link to="/services" className="btn-outline text-center">Explore Services</Link>
           </div>
 
