@@ -36,7 +36,7 @@ export default function About() {
             ))}
           </ul>
 
-          <a href="https://secure.acuityscheduling.com/appointments.php" target="_blank" rel="noopener noreferrer" className="btn-outline">Work With Brynn</a>
+          <a href="https://coloradobrow.as.me/" target="_blank" rel="noopener noreferrer" className="btn-outline">Work With Brynn</a>
         </div>
       </div>
     </section>

@@ -44,7 +44,7 @@ export default function Portfolio() {
         </div>
 
         <div className="text-center mt-12">
-          <a href="https://secure.acuityscheduling.com/appointments.php" target="_blank" rel="noopener noreferrer" className="btn-primary">Book Your Appointment</a>
+          <a href="https://coloradobrow.as.me/" target="_blank" rel="noopener noreferrer" className="btn-primary">Book Your Appointment</a>
         </div>
       </div>
     </section>
