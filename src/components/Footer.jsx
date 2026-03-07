@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-12">
           {/* Brand */}
           <a href="#" className="font-serif text-xl text-white tracking-wide">
-            Brow <span className="text-rose italic">by Brynn</span>
+            Brow Company <span className="text-rose italic">by Brynn</span>
           </a>
 
           {/* Nav */}
@@ -34,19 +34,19 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 gap-6 border-t border-white/10 pt-8 mb-8">
           <div>
             <p className="font-sans text-xs tracking-widest uppercase text-rose mb-1">Boulder, Colorado</p>
-            <p className="font-sans text-xs text-white/40">Indie Salons #29, 2660 Canyon Blvd</p>
-            <p className="font-sans text-xs text-white/40">Tue – Sat, 10am – 6pm · (720) 507-5119</p>
+            <p className="font-sans text-xs text-white/40">4750 Broadway, Boulder, CO 80304</p>
+            <p className="font-sans text-xs text-white/40">(720) 507-5119</p>
           </div>
           <div>
             <p className="font-sans text-xs tracking-widest uppercase text-rose mb-1">Ormond Beach, Florida</p>
             <p className="font-sans text-xs text-white/40">Phenix Salon Suites #101, 266 N Nova Rd</p>
-            <p className="font-sans text-xs text-white/40">Tue – Sat, 10am – 6pm · (720) 507-5119</p>
+            <p className="font-sans text-xs text-white/40">(720) 507-5119</p>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-sans text-xs text-white/30">
-            © {new Date().getFullYear()} Brow by Brynn. All rights reserved.
+            © {new Date().getFullYear()} Brow Company by Brynn. All rights reserved.
           </p>
           <p className="font-sans text-xs text-white/30">
             Permanent makeup services in Colorado &amp; Florida.
