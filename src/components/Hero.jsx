@@ -51,13 +51,6 @@ export default function Hero() {
               className="w-full h-full object-cover object-top"
             />
           </div>
-          <div className="flex items-center gap-5 mt-4 justify-center">
-            <a href="https://www.instagram.com/_browcompany" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-widest uppercase text-charcoal/50 hover:text-rose transition-colors">Instagram</a>
-            <span className="text-charcoal/20">|</span>
-            <a href="https://www.facebook.com/floridabrowco" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-widest uppercase text-charcoal/50 hover:text-rose transition-colors">Facebook FL</a>
-            <span className="text-charcoal/20">|</span>
-            <a href="https://www.facebook.com/coloradobrowco" target="_blank" rel="noopener noreferrer" className="font-sans text-xs tracking-widest uppercase text-charcoal/50 hover:text-rose transition-colors">Facebook CO</a>
-          </div>
         </div>
       </div>
 
