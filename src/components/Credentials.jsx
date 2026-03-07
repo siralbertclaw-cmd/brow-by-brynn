@@ -1,4 +1,6 @@
 const credentials = [
+  "Master Cosmetologist",
+  "Florida State Licensed Tattoo Artist",
   "Dora Approved Business License",
   "Better Business Bureau Accredited",
   "NanoBrow Certification & Brow Mapping Course by Lauren Taylor",
