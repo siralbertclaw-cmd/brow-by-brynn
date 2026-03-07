@@ -6,7 +6,7 @@ function ServiceCard({ s, i }) {
   return (
     <div ref={ref} className={`reveal reveal-delay-${i + 1} group flex flex-col border border-blush/60 hover:border-rose/40 transition-all duration-500 bg-white overflow-hidden hover:scale-105 hover:shadow-xl hover:z-10 relative`}>
       <div className="h-72 overflow-hidden">
-        <img src={s.image} alt={s.name} style={s.objectPosition ? { objectPosition: s.objectPosition } : {}} className={`w-full h-full group-hover:scale-110 transition-transform duration-700 ${s.name === 'Lip Blush' ? 'object-contain bg-blush/20' : 'object-cover'}`} />
+        <img src={s.image} alt={s.name} style={s.objectPosition ? { objectPosition: s.objectPosition } : {}} className={`w-full h-full group-hover:scale-110 transition-transform duration-700 ${s.name === 'Lip Blush' || s.name === 'Powder Brows' ? 'object-contain bg-blush/20' : 'object-cover'}`} />
       </div>
       <div className="p-8 flex flex-col flex-1">
         <span className="font-sans text-xs tracking-widest uppercase text-rose mb-4">0{i + 1}</span>
