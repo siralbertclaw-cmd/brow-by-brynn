@@ -4,6 +4,7 @@ const reasons = [
   { stat: 'Enhance', label: "It doesn't look like makeup, it enhances your natural features" },
   { stat: 'Love', label: 'I only sign off on work I love. You deserve results worth being proud of' },
   { stat: 'Precision', label: 'Integrity and precision in every stroke. Perfection is the standard, not the goal' },
+  { stat: 'Artistic Eye', label: "With an artist's eye for symmetry, color, and balance, Brynn creates results that look beautifully natural and uniquely you" },
 ]
 
 export default function WhyChoose() {
