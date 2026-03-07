@@ -7,7 +7,7 @@ import PortfolioPage from './pages/PortfolioPage'
 import AboutPage from './pages/AboutPage'
 import FAQPage from './pages/FAQPage'
 import BeforeCarePage from './pages/BeforeCarePage'
-import BeforeAfterPage from './pages/BeforeAfterPage'
+import AfterCarePage from './pages/AfterCarePage'
 
 export default function App() {
   return (
@@ -20,7 +20,7 @@ export default function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/before-care" element={<BeforeCarePage />} />
-        <Route path="/before-after" element={<BeforeAfterPage />} />
+        <Route path="/after-care" element={<AfterCarePage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

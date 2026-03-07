@@ -4,9 +4,9 @@ import { Link, useLocation } from 'react-router-dom'
 const links = [
   { label: 'Services', to: '/services' },
   { label: 'Portfolio', to: '/portfolio' },
-  { label: 'Before & After', to: '/before-after' },
   { label: 'About', to: '/about' },
   { label: 'Before Care', to: '/before-care' },
+  { label: 'After Care', to: '/after-care' },
   { label: 'FAQ', to: '/faq' },
 ]
 
