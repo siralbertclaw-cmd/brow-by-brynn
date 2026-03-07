@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage'
 import FAQPage from './pages/FAQPage'
 import BeforeCarePage from './pages/BeforeCarePage'
 import AfterCarePage from './pages/AfterCarePage'
+import AgreementPage from './pages/AgreementPage'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/before-care" element={<BeforeCarePage />} />
         <Route path="/after-care" element={<AfterCarePage />} />
+        <Route path="/agreement" element={<AgreementPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -8,6 +8,7 @@ const links = [
   { label: 'Before Care', to: '/before-care' },
   { label: 'After Care', to: '/after-care' },
   { label: 'FAQ', to: '/faq' },
+  { label: 'Agreement', to: '/agreement' },
 ]
 
 export default function Navbar() {
