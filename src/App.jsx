@@ -6,6 +6,7 @@ import ServicesPage from './pages/ServicesPage'
 import PortfolioPage from './pages/PortfolioPage'
 import AboutPage from './pages/AboutPage'
 import FAQPage from './pages/FAQPage'
+import BeforeCarePage from './pages/BeforeCarePage'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/faq" element={<FAQPage />} />
+        <Route path="/before-care" element={<BeforeCarePage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
