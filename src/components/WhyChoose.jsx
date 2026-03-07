@@ -12,8 +12,8 @@ export default function WhyChoose() {
     <section className="bg-cream py-24">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="section-label">Why Clients Choose Us</span>
-          <h2 className="section-title">Why Florida Brow Co.</h2>
+          <span className="section-label">Why Clients Choose Me</span>
+          <h2 className="section-title">Why Choose Brynn</h2>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
