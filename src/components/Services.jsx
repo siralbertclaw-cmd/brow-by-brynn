@@ -32,7 +32,7 @@ export default function Services() {
           <h2 className="section-title">Artistry That Lasts</h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((s, i) => (
             <ServiceCard key={s.name} s={s} i={i} />
           ))}

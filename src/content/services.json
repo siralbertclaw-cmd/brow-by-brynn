@@ -18,9 +18,17 @@
   {
     "name": "Lash Line Enhancement",
     "tagline": "Fuller lashes without the mascara.",
-    "description": "Pigment placed right at the lash line to make your lashes look thicker and your eyes more defined. Subtle enough for everyday, striking enough to notice.",
+    "description": "Pigment placed right between the lashes to make them look fuller and more defined. Unlike an eyeliner tattoo, it sits within the lash line and is virtually undetectable. Natural, effortless definition every day without looking made up.",
     "price": "Starting at $400",
-    "ideal": "Those who want effortless definition",
+    "ideal": "Those who want subtle, natural definition",
+    "image": "/lash-liner.jpg"
+  },
+  {
+    "name": "Eyeliner Tattoo",
+    "tagline": "Bold definition, zero effort.",
+    "description": "Pigment applied on top of the lash line for a more visible, dramatic liner look. Can include a subtle wing for a classic, defined finish. Unlike lash line enhancement, eyeliner tattoo is meant to be seen and gives you that polished liner look every single day.",
+    "price": "Starting at $450",
+    "ideal": "Those who want a defined, liner look with optional wing",
     "image": "/lash-liner.jpg"
   }
 ]
