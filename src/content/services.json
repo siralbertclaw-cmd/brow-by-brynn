@@ -24,6 +24,14 @@
     "image": "/lash-liner.jpg"
   },
   {
+    "name": "Powder Brows",
+    "tagline": "The solution for pigment buildup.",
+    "description": "A soft, filled-in brow technique using a stippling method to create an airbrushed, powdery finish. Ideal for clients with too much previous pigment in the skin, where nano brow hairstrokes would not show the natural skin gaps between strokes. Often used as a color correction to neutralize old work and restore a clean, defined shape.",
+    "price": "Starting at $550",
+    "ideal": "Previous microblading, excess pigment buildup, or color correction",
+    "image": "/nano-brows.jpg"
+  },
+  {
     "name": "Eyeliner",
     "tagline": "Bold definition, zero effort.",
     "description": "Pigment applied on top of the lash line for a more visible, dramatic liner look. Can include a subtle wing for a classic, defined finish. Unlike lash line enhancement, eyeliner is meant to be seen and gives you that polished liner look every single day.",
