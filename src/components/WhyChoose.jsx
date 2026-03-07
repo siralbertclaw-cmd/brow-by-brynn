@@ -1,10 +1,10 @@
 const reasons = [
-  { stat: '15+', label: 'Years of beauty experience' },
-  { stat: '1,000+', label: 'Clients served across CO and FL' },
-  { stat: 'Nano', label: 'Hyper-realistic hairstrokes, better than microblading' },
-  { stat: 'Less', label: 'Trauma, minimal scabbing, natural healing' },
-  { stat: 'Licensed', label: 'PMU artist and Florida State licensed tattoo artist' },
-  { stat: '2-Step', label: 'Session process for the best, longest-lasting results' },
+  { stat: 'Custom', label: 'Brow mapping and shape design tailored to your face, every single time' },
+  { stat: '4 Gen', label: 'Four generations deep in the beauty industry, beauty is in my blood' },
+  { stat: 'Hyper', label: 'Hyper-realistic techniques that look indistinguishable from natural brows' },
+  { stat: 'Done', label: 'You wake up done. Not overdone. Just effortlessly put together' },
+  { stat: 'Love', label: 'I only sign off on work I love. You deserve results worth being proud of' },
+  { stat: 'Precision', label: 'Integrity and precision in every stroke. Perfection is the standard, not the goal' },
 ]
 
 export default function WhyChoose() {
