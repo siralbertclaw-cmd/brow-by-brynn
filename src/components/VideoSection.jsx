@@ -13,8 +13,7 @@ export default function VideoSection() {
     <section className="bg-charcoal py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
-          <span className="section-label" style={{ color: '#C9908E' }}>The Work</span>
-          <h2 className="font-serif text-3xl md:text-4xl text-white leading-snug">See It in Motion</h2>
+          <h2 className="font-serif text-3xl md:text-4xl text-white leading-snug">See Me in Action</h2>
         </div>
 
         <div className="flex justify-center">
