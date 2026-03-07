@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import services from '../content/services.json'
 
 export default function Hero() {
   return (
@@ -22,6 +23,19 @@ export default function Hero() {
           <div className="flex flex-col gap-4 mb-8 w-full max-w-xs">
             <a href="https://secure.acuityscheduling.com/appointments.php" target="_blank" rel="noopener noreferrer" className="btn-primary text-center">Book Now</a>
             <Link to="/services" className="btn-outline text-center">Explore Services</Link>
+          </div>
+
+          {/* Service pills */}
+          <div className="flex flex-wrap gap-3">
+            {services.map(s => (
+              <Link
+                key={s.name}
+                to="/services"
+                className="font-sans text-xs tracking-widest uppercase text-charcoal/60 border border-blush/60 hover:border-rose hover:text-rose px-4 py-2 transition-colors duration-300"
+              >
+                {s.name}
+              </Link>
+            ))}
           </div>
         </div>
 
