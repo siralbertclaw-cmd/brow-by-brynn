@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-12">
           {/* Brand */}
           <a href="#" className="font-serif text-xl text-white tracking-wide">
-            Brow Company <span className="text-rose italic">by Brynn</span>
+            Brow Company
           </a>
 
           {/* Nav */}
@@ -46,7 +46,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-sans text-xs text-white/30">
-            © {new Date().getFullYear()} Brow Company by Brynn. All rights reserved.
+            © {new Date().getFullYear()} Brow Company. All rights reserved.
           </p>
           <div className="flex items-center gap-5">
             <a href="https://www.instagram.com/_browcompany" target="_blank" rel="noopener noreferrer" className="font-sans text-xs text-white/40 hover:text-white transition-colors tracking-widest uppercase">Instagram</a>
