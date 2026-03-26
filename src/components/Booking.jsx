@@ -19,8 +19,8 @@ export default function Booking() {
         </a>
         <p className="font-sans text-sm text-white/60 mt-6">
           Any questions?{' '}
-          <a href="sms:7205052790" className="text-white underline underline-offset-2 hover:text-white/80 transition-colors">
-            Text me (720) 505-2790
+          <a href="sms:7205075119" className="text-white underline underline-offset-2 hover:text-white/80 transition-colors">
+            Text me (720) 507-5119
           </a>
         </p>
       </div>
