@@ -3,7 +3,7 @@ import useScrollReveal from '../hooks/useScrollReveal'
 const photos = [
   { src: '/portfolio/DUlr9f6kaoI.jpg', alt: 'Nano brow before and after' },
   { src: '/portfolio/DUT9J2sji9n.jpg', alt: 'Nano brow before and after' },
-  { src: '/portfolio/DRNCBR1jmaH.jpg', alt: 'Lash line enhancement close-up' },
+  { src: '/portfolio/DRNCBR1jmaH.jpg', alt: 'Nano brow result' },
   { src: '/portfolio/DQUoGREDpCG.jpg', alt: 'Nano brow before and after' },
   { src: '/portfolio/DOFIQnwDqKi.jpg', alt: 'Lip blush before and after' },
   { src: '/portfolio/DNgpSbKy1pi.jpg', alt: 'Nano brow before and after' },
