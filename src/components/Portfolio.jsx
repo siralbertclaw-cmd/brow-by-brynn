@@ -5,7 +5,7 @@ const photos = [
   { src: '/portfolio/DUT9J2sji9n.jpg', alt: 'Nano brow before and after' },
   { src: '/portfolio/DRNCBR1jmaH.jpg', alt: 'Lash line enhancement close-up' },
   { src: '/portfolio/DQUoGREDpCG.jpg', alt: 'Nano brow before and after' },
-  { src: '/portfolio/DOFIQnwDqKi.jpg', alt: 'Lip blush result' },
+  { src: '/portfolio/DOFIQnwDqKi.jpg', alt: 'Lip blush before and after' },
   { src: '/portfolio/DNgpSbKy1pi.jpg', alt: 'Nano brow before and after' },
   { src: '/portfolio/DNYOJzpuDRB.jpg', alt: 'Nano brow before and after' },
   { src: '/portfolio/DNKSCsJtNyB.jpg', alt: 'Lip blush before and after' },
