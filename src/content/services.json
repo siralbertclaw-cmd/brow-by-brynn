@@ -4,7 +4,7 @@
     "tagline": "Looks real. Because it should.",
     "description": "Tiny, hair-like strokes placed with a digital needle to fill, shape, and define your brows naturally. Great for sparse or uneven brows, built to last 1 to 3 years.",
     "pricing": [
-      { "label": "Session 1", "total": "$900", "deposit": "$150 deposit to book", "balance": "$750 balance due at appointment (includes session 2)" },
+      { "label": "2 Initial Sessions, 6-8 Weeks Apart", "total": "$900", "deposit": "$150 deposit to book", "balance": "$750 balance due at appointment (includes session 2)" },
       { "label": "12–18 Month Refresh", "total": "$550", "deposit": "$150 deposit to book", "balance": "$400 balance due at appointment" },
       { "label": "18+ Month Refresh", "total": "$650", "deposit": "$150 deposit to book", "balance": "$500 balance due at appointment" }
     ],
@@ -16,7 +16,7 @@
     "tagline": "The solution for pigment buildup.",
     "description": "A soft, filled-in brow technique using a stippling method to create an airbrushed, powdery finish. Ideal for clients with too much previous pigment in the skin, where nano brow hairstrokes would not show the natural skin gaps between strokes. Often used as a color correction to neutralize old work and restore a clean, defined shape.",
     "pricing": [
-      { "label": "Session 1", "total": "$900", "deposit": "$150 deposit to book", "balance": "$750 balance due at appointment (includes session 2)" },
+      { "label": "2 Initial Sessions, 6-8 Weeks Apart", "total": "$900", "deposit": "$150 deposit to book", "balance": "$750 balance due at appointment (includes session 2)" },
       { "label": "12–18 Month Refresh", "total": "$550", "deposit": "$150 deposit to book", "balance": "$400 balance due at appointment" },
       { "label": "18+ Month Refresh", "total": "$650", "deposit": "$150 deposit to book", "balance": "$500 balance due at appointment" }
     ],
@@ -29,7 +29,7 @@
     "tagline": "Color that stays. Liner that doesn't.",
     "description": "Lip blush is a soft cosmetic tattoo that enhances your natural lip shape and restores healthy color. It can redefine the Cupid's bow, add natural pigment to faded lips, and reduce the pale \"white halo\" that can make lips appear smaller or less defined. Lip blush pairs beautifully with lip filler and can also help neutralize darker or uneven lip tones for a balanced, natural look.",
     "pricing": [
-      { "label": "Session 1", "total": "$900", "deposit": "$150 deposit to book", "balance": "$750 balance due at appointment (includes session 2)" },
+      { "label": "2 Initial Sessions, 6-8 Weeks Apart", "total": "$900", "deposit": "$150 deposit to book", "balance": "$750 balance due at appointment (includes session 2)" },
       { "label": "Refresh", "total": "$550", "deposit": "$150 deposit to book", "balance": "$400 balance due at appointment" }
     ],
     "ideal": "Anyone whose lips blend in with their skin",
@@ -40,7 +40,7 @@
     "tagline": "Fuller lashes without the mascara.",
     "description": "Pigment placed right between the lashes to make them look fuller and more defined. Unlike eyeliner, it sits within the lash line and is virtually undetectable. Natural, effortless definition every day without looking made up.",
     "pricing": [
-      { "label": "Session 1", "total": "$650", "deposit": "$150 deposit to book", "balance": "$500 balance due at appointment (includes session 2)" },
+      { "label": "2 Initial Sessions, 6-8 Weeks Apart", "total": "$650", "deposit": "$150 deposit to book", "balance": "$500 balance due at appointment (includes session 2)" },
       { "label": "Refresh", "total": "$550", "deposit": "$150 deposit to book", "balance": "$400 balance due at appointment" }
     ],
     "ideal": "Those who want subtle, natural definition",
@@ -52,7 +52,7 @@
     "tagline": "Bold definition, zero effort.",
     "description": "Pigment applied on top of the lash line for a more visible, dramatic liner look. Can include a subtle wing for a classic, defined finish. Unlike lash line enhancement, eyeliner is meant to be seen and gives you that polished liner look every single day.",
     "pricing": [
-      { "label": "Session 1", "total": "$650", "deposit": "$150 deposit to book", "balance": "$500 balance due at appointment (includes session 2)" },
+      { "label": "2 Initial Sessions, 6-8 Weeks Apart", "total": "$650", "deposit": "$150 deposit to book", "balance": "$500 balance due at appointment (includes session 2)" },
       { "label": "Refresh", "total": "$550", "deposit": "$150 deposit to book", "balance": "$400 balance due at appointment" }
     ],
     "ideal": "Those who want a defined, liner look with optional wing",
